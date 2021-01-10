@@ -2,6 +2,8 @@
 #include<algorithm>
 using namespace std;
 
+
+// Find func - Acts as linear search
 int main(){
     int key,arr[] = {1,2,3,4,5};
     cin >> key;
