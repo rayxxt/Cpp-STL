@@ -24,9 +24,12 @@ int main(){
     }
     cout<<endl;
 
+
+    d.push_back(12);
     for(int v: d){
         cout<<v<<" ";
     }
+    cout<<endl;
 
     //some more functions
     cout<<d.size()<<endl;
