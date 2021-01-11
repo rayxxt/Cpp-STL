@@ -10,9 +10,9 @@ using namespace std;
 //Helps us to create tokens/ divide a string based on certain delimiter
 int main(){
     char s[100] = "How are you? I am fine";
-    char ptr = strtok(s, " ");
-    while(ptr){
-        cout << ptr;
+    char *ptr = strtok(s, " ");
+    while(ptr!=NULL){
+        cout << ptr << endl;
         ptr = strtok(NULL, " ");
     }
 }
