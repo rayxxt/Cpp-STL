@@ -38,3 +38,39 @@
   - Recommended-
     - [Download MinGW](https://sourceforge.net/projects/mingw/)
 </br>
+
+- Now Setup your Environment variable for the Compiler.
+
+    Steps-
+    * Open your Control Panel
+    ```
+    My PC -> Properties
+    ```
+
+    * Follow the path
+    ```
+    Advanced System Settings -> Environment Variables -> Click on Path -> Click New
+    ```
+
+    * Now add the path of the bin of your MinGW folder from where you installed the compiler.
+    In most of the cases, it is going to be-
+    ```
+    C:\MinGW\bin
+    ```
+</br>
+
+- For VS Code, Install extensions- (Recommended)
+  - C/C++ by Microsoft
+  - Code Runner by Jun Han
+</br>
+
+- For Sublime Text, setup the build file by cop pasting the content from [this GitHub repo](https://github.com/luvk1412/Competitive-Programming) to your build file(json) depending upon your OS.
+</br>
+
+- Clone the repository by running this command in your git bash/ terminal.
+```
+git clone https://github.com/Pranav016/Cpp-STL.git
+```
+</br>
+
+- Now open the repo in your Code editor/ IDE and you are all set to use it.
